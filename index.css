@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: black;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.game{
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+}
+.gamebox{
+    display: flex;
+}
+.boxtext1{
+    width: 150px;
+    height: 150px;
+    border: 0.2rem solid black;
+}
+.boxtext{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box2{
+    border-left: none;
+    border-right: none;
+}
+.box3{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box4{
+    border-top: none;
+    border-bottom: none;
+}
+.box6{
+    border-top: none;
+    border-bottom: none;
+}
+.box7{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box8{
+    border-left: none;
+    border-right: none;
+}
+.box9{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.boxtext:hover{
+    background-color: rgb(233, 247, 247);
+    cursor: pointer;
+}
+.gamemes{
+    margin: 3rem;
+}
+.mes{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.turnmes{
+    display: flex;
+    font-size: 1.5rem;
+}
+button{
+    font-size: 1rem;
+    margin-left: 2rem;
+    width: 4rem;
+    background-color: aqua;
+    cursor: pointer;
+}
